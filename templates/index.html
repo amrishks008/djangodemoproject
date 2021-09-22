@@ -194,7 +194,7 @@ https://templatemo.com/tm-561-purple-buzz
             {% for dest in dests %}
             <div class="col-xl-3 col-md-4 col-sm-6 project ui {{dest.brand}}">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="service card-img" src="{{asset}}/{{dest.img}}" alt="Card image">
+                    <img class="service card-img" src="{{dest.img.url}}" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">{{dest.type}}</span>
